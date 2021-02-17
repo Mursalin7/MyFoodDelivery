@@ -1,0 +1,19 @@
+.Ordertab_options > ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    font-weight: 500;
+    font-size: 20px;
+    color: #452603;
+}
+.Ordertab{
+    margin-left: 10px;
+}
+.Ordertab h4 {
+    font-size: 30px;
+    color: #b56a14;
+}
+.Ordertab_restaurants{
+    display: flex;
+    justify-content: space-around;
+}

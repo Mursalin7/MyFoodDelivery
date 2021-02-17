@@ -1,0 +1,22 @@
+.palet{
+    display: flex;
+    justify-content: space-evenly
+}
+.paletImage{
+    width: 35vh;
+    height: 30vh;
+    max-width: 100%;
+}
+.home{
+    background-color:#f7b76d;
+    padding-top: 35px;
+}
+.paletCaption{
+    text-align: center;
+    color:black;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+}
+.palet a {
+    text-decoration: none;
+}

@@ -1,0 +1,10 @@
+.restaurantTile_container{
+    width: 40vh;
+    height: 40vh;
+    border: 1px solid green;
+}
+.restaurantTile_container img {
+    max-width: 100%;
+    object-fit: cover;
+    max-height: 100%;
+}
