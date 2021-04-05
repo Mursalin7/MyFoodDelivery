@@ -1,10 +1,27 @@
 .restaurantTile_container{
     width: 40vh;
-    height: 40vh;
-    border: 1px solid green;
+    height: 50vh;    
+    padding: 0 10px 25px 10px;
+}
+.restaurantTile_container h4{
+    margin-bottom: -10px;
+    color: black;
+}
+.restaurantTile_rating{
+    margin-bottom: -8px;
+    font-size: 16px
+}
+.restaurantTile_speciality{
+    margin-bottom: 0px;
+    color: gray;
 }
 .restaurantTile_container img {
     max-width: 100%;
-    object-fit: cover;
-    max-height: 100%;
+    max-height: auto;
+    border-radius: 5px;
+  
+}
+.restaurantTile_imageContainer{
+    width: 40vh;
+    height: 25vh;
 }

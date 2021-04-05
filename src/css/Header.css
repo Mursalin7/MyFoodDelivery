@@ -4,6 +4,7 @@
     height: 60vh;
     border:  1px solid black;
     background-size: cover;
+    max-height: auto;
     text-align: center;
 }
 

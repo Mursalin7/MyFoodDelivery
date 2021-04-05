@@ -16,4 +16,7 @@
 .Ordertab_restaurants{
     display: flex;
     justify-content: space-around;
+    margin-left: 10%;
+    margin-right: 10%;
+    flex-wrap: wrap;
 }

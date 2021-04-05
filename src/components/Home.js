@@ -1,9 +1,9 @@
-import React from "react";
-import { Link } from 'react-router-dom';
-import Header from './Header';
+import React,{useEffect} from "react";
+import { Link } from "react-router-dom";
+import Header from "./Header";
 import "../css/Home.css";
 
-function Home() {
+function Home() {  
   return (
     <div>
       <Header />
@@ -11,13 +11,22 @@ function Home() {
         <div className="palet">
           <Link to="/delivery">
             <div>
-              <img className="paletImage" caption="Order Online" src="https://happilyunprocessed.com/wp-content/uploads/2018/03/Juicest-Burger-Ever-720x1009.jpg" alt="Burger" />
+              <img
+                className="paletImage"
+                caption="Order Online"
+                src="https://happilyunprocessed.com/wp-content/uploads/2018/03/Juicest-Burger-Ever-720x1009.jpg"
+                alt="Burger"
+              />
               <p className="paletCaption">Order Online</p>
             </div>
           </Link>
           <Link to="/dinein">
             <div>
-              <img className="paletImage" src="https://i1.wp.com/mauivang.com/wp-content/uploads/2018/10/eating-out.jpg?fit=2048%2C1152&ssl=1" alt="DineIn" />
+              <img
+                className="paletImage"
+                src="https://i1.wp.com/mauivang.com/wp-content/uploads/2018/10/eating-out.jpg?fit=2048%2C1152&ssl=1"
+                alt="DineIn"
+              />
               <p className="paletCaption">Dine Out</p>
             </div>
           </Link>
