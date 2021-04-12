@@ -1,15 +1,19 @@
 .header {
     color: black;
-    font-size: 5vh;
-    height: 60vh;
+    font-size: 2vw;
+    height: 30vw;
     border:  1px solid black;
     background-size: cover;
     max-height: auto;
     text-align: center;
 }
+.headerText{
+    background-color: azure;
+    padding: 0px;
+}
 
 .searchBox{
-    width:30vh;
+    width:30vw;
     padding: 3px;
 }
 

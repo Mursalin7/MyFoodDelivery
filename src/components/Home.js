@@ -1,4 +1,4 @@
-import React,{useEffect} from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import Header from "./Header";
 import "../css/Home.css";
@@ -14,7 +14,7 @@ function Home() {
               <img
                 className="paletImage"
                 caption="Order Online"
-                src="https://happilyunprocessed.com/wp-content/uploads/2018/03/Juicest-Burger-Ever-720x1009.jpg"
+                src="../burger.jpg"
                 alt="Burger"
               />
               <p className="paletCaption">Order Online</p>
@@ -24,7 +24,7 @@ function Home() {
             <div>
               <img
                 className="paletImage"
-                src="https://i1.wp.com/mauivang.com/wp-content/uploads/2018/10/eating-out.jpg?fit=2048%2C1152&ssl=1"
+                src="../dining.jpg"
                 alt="DineIn"
               />
               <p className="paletCaption">Dine Out</p>

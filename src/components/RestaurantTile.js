@@ -6,7 +6,7 @@ function RestaurantTile({name,image,speciality,averageRate,deliveryTime,rating})
     return (
         <Link to={{
             pathname:`/delivery/${name}`,
-            state:{name}
+            state:{name,image}
         }} >
         <div className="restaurantTile_container">
             <div className="restaurantTile_imageContainer"><img src={image} alt={name}/></div>
